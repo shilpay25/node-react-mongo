@@ -3,7 +3,7 @@
 
 ##includes: 
 based of node:alpine 
-Nano - for creating and modifying files from the bash ternimal 
+Nano - for creating and modifying files from the bash terminal
 Bash - to run CLI 
 Webpack - web server to run app 
 Babel - JS compiler for backwards compatability 
