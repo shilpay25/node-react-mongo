@@ -28,7 +28,7 @@ run `npx create-react-app <project name>`
 
 > follow the commands 
 
-> cd into my-app
+> cd into <project name>
 
 > run `npm start` 
 
