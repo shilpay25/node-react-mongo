@@ -24,7 +24,7 @@ Babel - JS compiler for backwards compatability
 
 > when completed you should now be in the bash terminal 
 
-run `npx create-react-app`
+run `npx create-react-app <project name>`
 
 > follow the commands 
 
