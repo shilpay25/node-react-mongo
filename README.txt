@@ -10,12 +10,12 @@ Babel - JS compiler for backwards compatability
 
 ##To start the service from docker hub:
 
-To pull this image from docker hub use: `docker pull empressabatour/node-react-mongo:1.0`
-and then
+> To pull this image from docker hub use: 
+`docker pull empressabatour/node-react-mongo:1.0`
 `docker run -it empressabatour/node-react-mongo:1.0`
 
-##To start the service from git repo:
-clone git repo and navigate into directory 
+### To start the service from git repo:
+> clone git repo and navigate into directory 
 
 `docker build -t node-react-mongo:<tag> .` 
 
@@ -28,15 +28,15 @@ run `npx create-react-app`
 
 > follow the commands 
 
-cd into my-app
+> cd into my-app
 
-run `npm start` 
+> run `npm start` 
 
->this will start a webpack server and allow for local access to the app. 
+> this will start a webpack server and allow for local access to the app. 
 
-to modify files run the command nano <file name> in the bash terminal 
+> to modify files run the command nano <file name> in the bash terminal 
 
 `ctrl+ o` - save to file 
 `ctrl+ x` - exit 
 
-run command `exit` in bash terminal to exit the container
+> run command `exit` in bash terminal to exit the container
