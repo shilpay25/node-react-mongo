@@ -1,1 +1,18 @@
 #will contain mongo image and port declaration, aswell as mount volumes for the react app and mongo db connection
+version: '3.7'
+services:
+  node-react:
+    image: node-react-mongo:1.0
+  mongodb_container:
+    container_name: mongodb
+    image: mongo:3.7
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rootpassword
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data_container:/data/db
+
+volumes:
+  mongodb_data_container:
