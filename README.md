@@ -1,16 +1,16 @@
-#A container for react development
+# A container for react development
 
 
-##includes: 
+## includes: 
 based of node:alpine 
 Nano - for creating and modifying files from the bash terminal
 Bash - to run CLI 
 Webpack - web server to run app 
 Babel - JS compiler for backwards compatability 
 
-##To start the service from docker hub:
+## To start the service from docker hub:
 
-> To pull this image from docker hub use: 
+To pull this image from docker hub use: 
 `docker pull empressabatour/node-react-mongo:1.0`
 `docker run -it empressabatour/node-react-mongo:1.0`
 
@@ -28,15 +28,15 @@ run `npx create-react-app <project name>`
 
 > follow the commands 
 
-> cd into <project name>
+cd into <project name>
 
-> run `npm start` 
+run `npm start` 
 
-> this will start a webpack server and allow for local access to the app. 
+this will start a webpack server and allow for local access to the app. 
 
-> to modify files run the command nano <file name> in the bash terminal 
+to modify files run the command nano <file name> in the bash terminal 
 
 `ctrl+ o` - save to file 
 `ctrl+ x` - exit 
 
-> run command `exit` in bash terminal to exit the container
+run command `exit` in bash terminal to exit the container
