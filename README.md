@@ -15,18 +15,18 @@ To pull this image from docker hub use:
 `docker run -it empressabatour/node-react-mongo:1.0`
 
 ### To start the service from git repo:
-> clone git repo and navigate into directory 
+clone git repo and navigate into directory 
 
 `docker build -t node-react-mongo:<tag> .` 
 
 ### will open a interactive container environment
 `docker run -it node-react-mongo:<tag>`
 
-> when completed you should now be in the bash terminal 
+when completed you should now be in the bash terminal 
 
 run `npx create-react-app <project name>`
 
-> follow the commands 
+follow the commands 
 
 cd into <project name>
 
