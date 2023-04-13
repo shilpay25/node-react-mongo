@@ -2,11 +2,12 @@
 
 
 ## includes: 
-based of node:alpine 
-Nano - for creating and modifying files from the bash terminal
-Bash - to run CLI 
-Webpack - web server to run app 
-Babel - JS compiler for backwards compatability 
+> based of node:alpine 
+> Nano - for creating and modifying files from the bash terminal
+> Vim 
+> Bash - to run CLI 
+> Webpack - web server to run app 
+> Babel - JS compiler for backwards compatability 
 
 ## To start the service from docker hub:
 
